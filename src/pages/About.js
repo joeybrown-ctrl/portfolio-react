@@ -23,7 +23,7 @@ function About() {
                 </div>
                 <div className="row">
                     <div className="col-sm-12 col-md-6">
-                        <img src="images/aboutPic.jpg" className="img-fluid rounded-circle" style={styles.img}
+                        <img src="/../../public/assets/aboutPic.jpg" className="img-fluid rounded-circle" style={styles.img}
                             alt="A photograph of Joey Brown smiling in his living room" />
                     </div>
 
