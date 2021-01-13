@@ -11,13 +11,20 @@ function Portfolio() {
 
         card: {
             maxWidth: "20rem",
+        },
+
+        container: {
+            background: "linear-gradient(rgba(0, 0, 0, 0.5),  rgba(0,0,0,0.9))",
+            marginTop: "50px",
+            marginBottom: "150px",
+            paddingBottom: "50px"
         }
     }
 
 
     return(
         <>
-        <div className="container">
+        <div className="container" style={styles.container}>
             <div className="row justify-content-center">
                 <h2 className="text-white" style={styles.h2}>Portfolio
                 </h2>

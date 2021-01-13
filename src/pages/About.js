@@ -10,12 +10,17 @@ function About() {
         h2: {
             paddingBottom: "10px",
             paddingTop: "20px",
+        },
+        container: {
+            background: "linear-gradient(rgba(0, 0, 0, 0.5),  rgba(0,0,0,0.9))",
+            marginTop: "50px",
+            marginBottom: "150px"
         }
     }
 
     return(
         <>
-            <div className="container">
+            <div className="container" style={styles.container}>
                 <div className="row">
                     <div className="col text-center">
                         <h2 className="text-white" style={styles.h2}>About Me</h2>
