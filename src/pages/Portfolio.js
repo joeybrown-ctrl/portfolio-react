@@ -27,7 +27,7 @@ function Portfolio() {
             <div className="row justify-content-center">
                 <div className="col-lg-4">
                     <div className="card mx-auto mb-3" style={styles.card}>
-                        <img className="card-img-top" src="../../public/assets/beercrawlr-sm.png" alt="Beercrawlr project"/>
+                        <img className="card-img-top" src="/../../public/assets/beercrawlr-sm.png" alt="Beercrawlr project"/>
                         <hr/>
                         <h5 className="card-title text-center">BeerCrawlr</h5>
                         <div className="card-body text-center">
@@ -46,7 +46,7 @@ function Portfolio() {
                 <div className="col-lg-4">
 
                     <div className="card mx-auto mb-3" style={styles.card} >
-                        <img className="card-img-top" src="../../public/assets/odyssey.png" alt="Odyssey's landing page"/>
+                        <img className="card-img-top" src="/../../public/assets/odyssey.png" alt="Odyssey's landing page"/>
                         <hr/>
                         <h5 className="card-title text-center">Odyssey</h5>
                         <div className="card-body text-center">
@@ -67,7 +67,7 @@ function Portfolio() {
                 <div className="col-lg-4">
 
                     <div className="card mx-auto mb-3" style={styles.card}>
-                        <img className="card-img-top" src="../../public/assets/burger-logger.png" alt="burger-logger app"/>
+                        <img className="card-img-top" src="/../../public/assets/burger-logger.png" alt="burger-logger app"/>
                         <hr/>
                         <h5 className="card-title text-center">Burger Logger</h5>
                         <div className="card-body text-center">

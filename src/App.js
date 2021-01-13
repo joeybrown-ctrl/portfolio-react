@@ -3,10 +3,16 @@ import Main from "./pages/Main";
 import About from "./pages/About";
 import Portfolio from "./pages/Portfolio";
 import Contact from "./pages/Contact";
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+import Footer from "./components/Footer";
 import './App.css';
 
 function App() {
   return (
+    <>
+    <Navbar />
+    <Hero>
     <Router>
       <Switch>
         <Route exact path="/" component={Main} />
@@ -15,6 +21,9 @@ function App() {
         <Route path="/Contact" component={Contact} />
       </Switch>
     </Router>
+    </Hero>
+    <Footer />
+    </>
   );
 }
 

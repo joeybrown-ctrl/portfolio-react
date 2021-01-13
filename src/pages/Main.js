@@ -8,6 +8,13 @@ function Main() {
             paddingTop: "250px",
             textAlign: "center",
             color: "white"
+        },
+
+        button: {
+            marginTop: "10px",
+            marginBottom: "10px",
+            marginLeft: "10px",
+            marginRight: "10px"
         }
     }
 
@@ -18,12 +25,12 @@ function Main() {
                     <h1 className="mx-auto text-white">George Joseph Brown</h1>
                     <hr/>
                     <p className="lead mx-auto">I am a Full-Stack Developer</p>
-                    <Link to="/About"><button className="btn btn-success button">About Me</button></Link>
+                    <Link to="/About"><button className="btn btn-success button" style={styles.button}>About Me</button></Link>
                     
-                    <Link to="/Portfolio"><button className="btn btn-success button">
+                    <Link to="/Portfolio"><button className="btn btn-success button" style={styles.button}>
                             Portfolio
                         </button></Link>
-                    <Link to="/Contact"><button className="btn btn-success button">
+                    <Link to="/Contact"><button className="btn btn-success button" style={styles.button}>
                             Contact
                         </button></Link>
                 </div>
