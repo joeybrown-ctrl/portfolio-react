@@ -22,7 +22,7 @@ function Footer() {
 
                             <br/>
                                 <p className="text-light">&copy; 
-                                    2020 George Joseph Brown. All rights reserved.
+                                    2021 George Joseph Brown. All rights reserved.
                                 </p>
 
                         </div>
