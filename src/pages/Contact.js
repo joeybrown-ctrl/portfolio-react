@@ -21,9 +21,9 @@ function Contact() {
                 <div className="col text-center text-white">
                     <hr/>
 
-                    <div><Link to={process.env.PUBLIC_URL + "/assets/Resume.pdf"} className="btn-floating btn-lg" role="button" target="_blank">
+                    <div><a href={process.env.PUBLIC_URL + "/assets/Resume.pdf"} className="btn-floating btn-lg" role="button" target="_blank" rel="noreferrer">
                             <h4 className="text-white">View Resume</h4>
-                        </Link>
+                        </a>
                     </div>
                     <hr/>
 
