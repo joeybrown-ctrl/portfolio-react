@@ -1,10 +1,10 @@
 import React from "react";
 
-function Hero() {
+function Hero(props) {
 
     const styles = {
         heroImage: {
-            background: 'linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.7)), url("../../public/assets/danny-strutt-w0XQM9X6uQc-unsplash.jpg")',
+            background: `linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.7)), url(${process.env.PUBLIC_URL +"/assets/danny-strutt-w0XQM9X6uQc-unsplash.jpg"})`,
             minHeight: "1000px",
             minWidth: "100%",
             backgroundPosition: "center",
@@ -16,7 +16,7 @@ function Hero() {
     return (
         <>
             <div className="hero text-center" style={styles.heroImage}>
-                
+                {props.children}
             </div>
         </>
     )

@@ -17,9 +17,9 @@ function App() {
     <Hero>
       <Switch>
         <Route exact path="/" component={Main} />
-        <Route exact path="/About" component={About} />
-        <Route exact path="/Portfolio" component={Portfolio} />
-        <Route path="/Contact" component={Contact} />
+        <Route exact path="/about" component={About} />
+        <Route exact path="/portfolio" component={Portfolio} />
+        <Route path="/contact" component={Contact} />
       </Switch>
     </Hero>
     <Footer />

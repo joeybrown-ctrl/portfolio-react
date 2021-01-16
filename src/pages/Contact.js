@@ -7,8 +7,9 @@ function Contact() {
 
         container: {
             background: "linear-gradient(rgba(0, 0, 0, 0.5),  rgba(0,0,0,0.9))",
-            marginTop: "50px",
+            // marginTop: "50px",
             marginBottom: "150px",
+            // paddingTop: "50px",
             paddingBottom: "50px"
         }
     }
@@ -20,7 +21,7 @@ function Contact() {
                 <div className="col text-center text-white">
                     <hr/>
 
-                    <div><Link to="../../public/assets/Resume.pdf" className="btn-floating btn-lg" role="button" target="_blank">
+                    <div><Link to={process.env.PUBLIC_URL + "/assets/Resume.pdf"} className="btn-floating btn-lg" role="button" target="_blank">
                             <h4 className="text-white">View Resume</h4>
                         </Link>
                     </div>

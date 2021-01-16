@@ -15,8 +15,9 @@ function Portfolio() {
 
         container: {
             background: "linear-gradient(rgba(0, 0, 0, 0.5),  rgba(0,0,0,0.9))",
-            marginTop: "50px",
+            // marginTop: "50px",
             marginBottom: "150px",
+            // paddingTop: "50px",
             paddingBottom: "50px"
         }
     }
@@ -34,7 +35,7 @@ function Portfolio() {
             <div className="row justify-content-center">
                 <div className="col-lg-4">
                     <div className="card mx-auto mb-3" style={styles.card}>
-                        <img className="card-img-top" src="/../../public/assets/beercrawlr-sm.png" alt="Beercrawlr project"/>
+                        <img className="card-img-top" src={process.env.PUBLIC_URL + "/assets/beercrawlr-sm.png"} alt="Beercrawlr project"/>
                         <hr/>
                         <h5 className="card-title text-center">BeerCrawlr</h5>
                         <div className="card-body text-center">
@@ -53,7 +54,7 @@ function Portfolio() {
                 <div className="col-lg-4">
 
                     <div className="card mx-auto mb-3" style={styles.card} >
-                        <img className="card-img-top" src="/../../public/assets/odyssey.png" alt="Odyssey's landing page"/>
+                        <img className="card-img-top" src={process.env.PUBLIC_URL + "/assets/odyssey.png"} alt="Odyssey's landing page"/>
                         <hr/>
                         <h5 className="card-title text-center">Odyssey</h5>
                         <div className="card-body text-center">
@@ -74,7 +75,7 @@ function Portfolio() {
                 <div className="col-lg-4">
 
                     <div className="card mx-auto mb-3" style={styles.card}>
-                        <img className="card-img-top" src="/../../public/assets/burger-logger.png" alt="burger-logger app"/>
+                        <img className="card-img-top" src={process.env.PUBLIC_URL + "/assets/burger-logger.png"} alt="burger-logger app"/>
                         <hr/>
                         <h5 className="card-title text-center">Burger Logger</h5>
                         <div className="card-body text-center">
@@ -145,7 +146,7 @@ function Portfolio() {
                 <div className="col-lg-4">
 
                     <div className="card mx-auto mb-3" style={styles.card}>
-                        <img className="card-img-top" src="../../public/assets/emp-tracker.png" alt="Employee Tracker app"/>
+                        <img className="card-img-top" src={process.env.PUBLIC_URL + "/assets/emp-tracker.png"} alt="Employee Tracker app"/>
                         <hr/>
                         <h5 className="card-title text-center">Employee Tracker</h5>
                         <div className="card-body text-center">

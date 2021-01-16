@@ -32,12 +32,12 @@ function Main() {
                     <h1 className="mx-auto text-white">George Joseph Brown</h1>
                     <hr/>
                     <p className="lead mx-auto">I am a Full-Stack Developer</p>
-                    <Link to="/About"><button className="btn btn-success button" style={styles.button}>About Me</button></Link>
+                    <Link to="/about"><button className="btn btn-success button" style={styles.button}>About Me</button></Link>
                     
-                    <Link to="/Portfolio"><button className="btn btn-success button" style={styles.button}>
+                    <Link to="/portfolio"><button className="btn btn-success button" style={styles.button}>
                             Portfolio
                         </button></Link>
-                    <Link to="/Contact"><button className="btn btn-success button" style={styles.button}>
+                    <Link to="/contact"><button className="btn btn-success button" style={styles.button}>
                             Contact
                         </button></Link>
                 </div>

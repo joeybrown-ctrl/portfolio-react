@@ -15,7 +15,8 @@ function About() {
         
         container: {
             background: "linear-gradient(rgba(0, 0, 0, 0.5),  rgba(0,0,0,0.9))",
-            marginTop: "50px",
+            // marginTop: "50px",
+            // paddingTop: "50px",
             marginBottom: "150px"
         }
     }
@@ -30,7 +31,7 @@ function About() {
                 </div>
                 <div className="row">
                     <div className="col-sm-12 col-md-6">
-                        <img src="/../../public/assets/aboutPic.jpg" className="img-fluid rounded-circle" style={styles.img}
+                        <img src={process.env.PUBLIC_URL + "/assets/aboutPic.jpg"} className="img-fluid rounded-circle" style={styles.img}
                             alt="A photograph of Joey Brown smiling in his living room" />
                     </div>
 
