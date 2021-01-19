@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 function Portfolio() {
 
@@ -41,11 +40,11 @@ function Portfolio() {
                         <div className="card-body text-center">
                             <p className="card-text">A brewery and restaurant search app that I created with a team of four.
                                 Utilizes JavaScript, jQuery, AJAX, and APIs. Front-end built using HTML5 and Bulma. </p>
-                            <Link to="https://joeybrown-ctrl.github.io/Beercrawlr/" className="btn btn-success"
-                                target="_blank">View Project</Link>
+                            <a href="https://joeybrown-ctrl.github.io/Beercrawlr/" className="btn btn-success"
+                                target="_blank" rel="noreferrer">View Project</a>
                             <hr/>
-                            <Link to="https://github.com/joeybrown-ctrl/Beercrawlr" className="btn btn-success"
-                                target="_blank">View Repository</Link>
+                            <a href="https://github.com/joeybrown-ctrl/Beercrawlr" className="btn btn-success"
+                                target="_blank" rel="noreferrer">View Repository</a>
                         </div>
 
                     </div>
@@ -62,11 +61,11 @@ function Portfolio() {
                                 country-specific travelogues filled with pictures and notes. The app utilizes the MVC
                                 design pattern, and is built with Node.js, Handlebars.js, Sequelize, Cloudinary,
                                 SendGrid and RESTCountries. Deployed to Heroku with a jawsDB database. </p>
-                            <Link to="https://team-zeus.herokuapp.com/" className="btn btn-success" target="_blank">View
-                                Project</Link>
+                            <a href="https://team-zeus.herokuapp.com/" className="btn btn-success" target="_blank" rel="noreferrer">View
+                                Project</a>
                             <hr/>
-                            <Link to="https://github.com/joeybrown-ctrl/Odyssey" className="btn btn-success"
-                                target="_blank">View Repository</Link>
+                            <a href="https://github.com/joeybrown-ctrl/Odyssey" className="btn btn-success"
+                                target="_blank" rel="noreferrer">View Repository</a>
                         </div>
 
                     </div>
@@ -83,11 +82,11 @@ function Portfolio() {
                                 homemade ORM. Created following the MVC design pattern, and deployed to Heroku. Node and
                                 MySQL are used to query and route data through the app, and Handlebars generates the
                                 HTML and Bootstrap front-end.</p>
-                            <Link to="https://burger-logger-joeybrown-ctrl.herokuapp.com/" className="btn btn-success"
-                                target="_blank">View Project</Link>
+                            <a href="https://burger-logger-joeybrown-ctrl.herokuapp.com/" className="btn btn-success"
+                                target="_blank" rel="noreferrer">View Project</a>
                             <hr/>
-                            <Link to="https://github.com/joeybrown-ctrl/burger-logger" className="btn btn-success"
-                                target="_blank">View Repository</Link>
+                            <a href="https://github.com/joeybrown-ctrl/burger-logger" className="btn btn-success"
+                                target="_blank" rel="noreferrer">View Repository</a>
                         </div>
 
                     </div>
@@ -114,11 +113,11 @@ function Portfolio() {
                                 with
                                 data. Built using Express.js, Node.js, JavaScript, CSS and HTML. Deployed via Heroku.
                             </p>
-                            <Link to="https://note-taker-joeybrown-ctrl.herokuapp.com/" className="btn btn-success"
-                                target="_blank">View Project</Link>
+                            <a href="https://note-taker-joeybrown-ctrl.herokuapp.com/" className="btn btn-success"
+                                target="_blank" rel="noreferrer">View Project</a>
                             <hr/>
-                            <Link to="https://github.com/joeybrown-ctrl/note-taker" className="btn btn-success"
-                                target="_blank">View Repository</Link>
+                            <a href="https://github.com/joeybrown-ctrl/note-taker" className="btn btn-success"
+                                target="_blank" rel="noreferrer">View Repository</a>
                         </div>
                     </div>
                 </div>
@@ -136,8 +135,8 @@ function Portfolio() {
                                 manager,
                                 engineer or intern -- and what the employee's name, ID, and email are -- with additional
                                 role specific questions as well.</p>
-                            <Link to="https://github.com/joeybrown-ctrl/team-profile-generator" className="btn btn-success"
-                                target="_blank">View Project</Link>
+                            <a href="https://github.com/joeybrown-ctrl/team-profile-generator" className="btn btn-success"
+                                target="_blank" rel="noreferrer">View Project</a>
                         </div>
 
                     </div>
@@ -154,8 +153,8 @@ function Portfolio() {
                                 employees by viewing, adding, updating and deleting employees, their roles, and
                                 departments. Built using Node.js with the Inquirer and MySQL NPM packages, Visual Studio
                                 Code, and MySQL Workbench.</p>
-                            <Link to="https://github.com/joeybrown-ctrl/employee-tracker" className="btn btn-success"
-                                target="_blank">View Project</Link>
+                            <a href="https://github.com/joeybrown-ctrl/employee-tracker" className="btn btn-success"
+                                target="_blank" rel="noreferrer">View Project</a>
                         </div>
 
                     </div>

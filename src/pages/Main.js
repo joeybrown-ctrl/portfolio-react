@@ -5,7 +5,7 @@ function Main() {
 
     const styles = {
         heroContents: {
-            paddingTop: "250px",
+            paddingTop: "150px",
             textAlign: "center",
             color: "white"
         },
