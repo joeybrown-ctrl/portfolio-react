@@ -24,6 +24,10 @@
 
   ## Description 
 
+  [!Image of portfolio landing page](https://raw.githubusercontent.com/joeybrown-ctrl/portfolio-react/master/public/assets/main.png)
+
+  <hr>
+
  My portfolio rebuilt with React. I took my pre-existing portfolio which I built using HTML 5, CSS 3, Bootstrap and Bootswatch, and refactored it within the React framework using React components, react-router-dom and style props. I kept the layout and deployed to GitHub Pages.
 
 
