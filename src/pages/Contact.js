@@ -1,5 +1,4 @@
 import React from "react";
-import pdf from "../ResumeUS.pdf";
 
 function Contact() {
 
@@ -21,8 +20,8 @@ function Contact() {
                 <div className="col text-center text-white">
                     <hr/>
 
-                    <div><a href={pdf} className="btn-floating btn-lg" role="button" target="_blank" rel="noreferrer">
-                            <h4 className="text-white">View Resume</h4>
+                    <div><a href="https://docs.google.com/document/d/1iuQnCRVQs36HgfXnCwyTdi5EnKiETB6gWLyYCLcZV3o/edit?usp=sharing" className="btn-floating btn-lg" role="button" target="_blank" rel="noreferrer">
+                            <h4 className="text-white" rel="noreferrer">View Resume</h4>
                         </a>
                     </div>
                     <hr/>
