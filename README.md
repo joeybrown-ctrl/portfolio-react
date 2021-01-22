@@ -24,7 +24,7 @@
 
   ## Description 
 
-  [!Image of portfolio landing page](https://raw.githubusercontent.com/joeybrown-ctrl/portfolio-react/master/public/assets/main.png)
+  ![Image of portfolio landing page](https://raw.githubusercontent.com/joeybrown-ctrl/portfolio-react/master/public/assets/main.png)
 
   <hr>
 
