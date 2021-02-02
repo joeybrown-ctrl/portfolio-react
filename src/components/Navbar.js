@@ -3,10 +3,16 @@ import { Link } from "react-router-dom";
 
 function Navbar() {
 
+    const styles = {
+        navBar: {
+            width: "100%"
+        }
+    }
+
 
     return (
         <>
-            <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
+            <nav className="navbar navbar-expand-lg navbar-dark bg-primary" style={styles.navBar}>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
                     aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>

@@ -5,9 +5,9 @@ function Main() {
 
     const styles = {
         heroContents: {
-            paddingTop: "150px",
+            // paddingTop: "150px",
             textAlign: "center",
-            color: "white"
+            color: "white",
         },
 
         button: {
@@ -21,7 +21,7 @@ function Main() {
             background: "linear-gradient(rgba(0, 0, 0, 0.5),  rgba(0,0,0,0.9))",
             marginTop: "50px",
             marginBottom: "150px",
-            paddingBottom: "50px"
+            paddingBottom: "50px",
         }
     }
 

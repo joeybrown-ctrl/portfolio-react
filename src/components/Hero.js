@@ -10,7 +10,11 @@ function Hero(props) {
             backgroundPosition: "center",
             backgroundRepeat: "no-repeat",
             position: "relative",
-            paddingTop: "50px"
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+            flexDirection: "column"
+            // paddingTop: "50px"
         }
     }
 

@@ -1,4 +1,5 @@
 import React from "react";
+import Navbar from "../components/Navbar";
 
 function About() {
 
@@ -23,6 +24,7 @@ function About() {
 
     return(
         <>
+            <Navbar />
             <div className="container" style={styles.container}>
                 <div className="row">
                     <div className="col text-center">

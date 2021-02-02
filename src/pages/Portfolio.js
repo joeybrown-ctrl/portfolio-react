@@ -1,4 +1,5 @@
 import React from "react";
+import Navbar from "../components/Navbar";
 
 function Portfolio() {
 
@@ -24,6 +25,7 @@ function Portfolio() {
 
     return(
         <>
+        <Navbar />
         <div className="container" style={styles.container}>
             <div className="row justify-content-center">
                 <h2 className="text-white" style={styles.h2}>Portfolio

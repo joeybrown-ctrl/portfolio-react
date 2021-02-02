@@ -1,4 +1,5 @@
 import React from "react";
+import Navbar from "../components/Navbar";
 
 function Contact() {
 
@@ -9,12 +10,13 @@ function Contact() {
             // marginTop: "50px",
             marginBottom: "150px",
             // paddingTop: "50px",
-            paddingBottom: "50px"
+            paddingBottom: "100px"
         }
     }
 
     return(
         <>
+        <Navbar />
         <div className="container" style={styles.container}>
             <div className="row justify-content-center">
                 <div className="col text-center text-white">
