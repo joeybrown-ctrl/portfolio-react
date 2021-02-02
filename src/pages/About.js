@@ -18,7 +18,8 @@ function About() {
             background: "linear-gradient(rgba(0, 0, 0, 0.5),  rgba(0,0,0,0.9))",
             // marginTop: "50px",
             // paddingTop: "50px",
-            marginBottom: "150px"
+            // marginBottom: "150px",
+            height: "100vh"
         }
     }
 

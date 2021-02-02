@@ -8,9 +8,10 @@ function Contact() {
         container: {
             background: "linear-gradient(rgba(0, 0, 0, 0.5),  rgba(0,0,0,0.9))",
             // marginTop: "50px",
-            marginBottom: "150px",
+            // marginBottom: "150px",
             // paddingTop: "50px",
-            paddingBottom: "100px"
+            // paddingBottom: "100px",
+            height: "100vh"
         }
     }
 
