@@ -13,7 +13,8 @@ function Hero(props) {
             display: "flex",
             alignItems: "center",
             justifyContent: "center",
-            flexDirection: "column"
+            flexDirection: "column",
+            paddingBottom: "100px",
             // paddingTop: "50px"
         }
     }

@@ -19,7 +19,7 @@ function Portfolio() {
             // marginBottom: "150px",
             // paddingTop: "50px",
             // paddingBottom: "50px"
-            height: "100vh"
+            height: "200vh"
         }
     }
 
