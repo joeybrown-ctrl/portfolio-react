@@ -13,7 +13,7 @@ function About() {
             paddingBottom: "10px",
             paddingTop: "20px",
         },
-        
+
         container: {
             background: "linear-gradient(rgba(0, 0, 0, 0.5),  rgba(0,0,0,0.9))",
             // marginTop: "50px",
@@ -23,7 +23,7 @@ function About() {
         }
     }
 
-    return(
+    return (
         <>
             <Navbar />
             <div className="container" style={styles.container}>
@@ -57,17 +57,17 @@ function About() {
                             be found cooking delicious meals, working with plants, and writing songs on my guitar.
                         </p>
                         <p>
-                            I will be relocating to Auckland, New Zealand in late February 2021, and am available for remote
-                            work at this time.
+                            I hold dual citizenship in New Zealand and the United States, and have the right to work in both countries.
+                            I am available for work at this time.
                         </p>
                     </div>
                 </div>
-        </div>
+            </div>
 
-        <br/>
-        <hr/>
-        <br/>
-    
+            <br />
+            <hr />
+            <br />
+
         </>
     )
 }
