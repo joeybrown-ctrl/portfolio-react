@@ -23,7 +23,7 @@ function Contact() {
                 <div className="col text-center text-white">
                     <hr/>
 
-                    <div><a href="https://docs.google.com/document/d/1iuQnCRVQs36HgfXnCwyTdi5EnKiETB6gWLyYCLcZV3o/edit?usp=sharing" className="btn-floating btn-lg" role="button" target="_blank" rel="noreferrer">
+                    <div><a href="https://docs.google.com/document/d/1PhYnlpJAlFEQCuOxQ33QhitccT5LWES6N_FZJKTaWWA/edit?usp=sharing" className="btn-floating btn-lg" role="button" target="_blank" rel="noreferrer">
                             <h4 className="text-white" rel="noreferrer">View Resume</h4>
                         </a>
                     </div>
