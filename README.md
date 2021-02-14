@@ -2,6 +2,8 @@
 
 ![license](https://img.shields.io/badge/License-MIT-blue.svg)
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/f28c97e3-2432-49fd-84fa-65ff27ffc232/deploy-status)](https://app.netlify.com/sites/georgejosephbrown/deploys)
+
 **version 1.0.0**
 
 [For deployed version, click me](https://joeybrown-ctrl.github.io/portfolio-react/#/)

@@ -75,6 +75,23 @@ function Portfolio() {
                 </div>
 
                 <div className="col-lg-4">
+                    <div className="card mx-auto mb-3" style={styles.card}>
+                        <img className="card-img-top"
+                            src="https://raw.githubusercontent.com/joeybrown-ctrl/Employee-Directory/main/public/assets/EmpDir.png" alt="Team profile generator"/>
+                        <hr/>
+                        <h5 className="card-title text-center">Team Profile Generator</h5>
+                        <div className="card-body text-center">
+                            <p className="card-text">An employee directory app that allows the user to filter through employees by name. Built with React, React hooks, and Bootstrap.</p>
+                            <a href="https://joeybrown-ctrl.github.io/Employee-Directory/" className="btn btn-success"
+                                target="_blank" rel="noreferrer">View Project</a>
+                            <a href="https://github.com/joeybrown-ctrl/Employee-Directory" className="btn btn-success"
+                                target="_blank" rel="noreferrer">View Repository</a>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div className="col-lg-4">
 
                     <div className="card mx-auto mb-3" style={styles.card}>
                         <img className="card-img-top" src={process.env.PUBLIC_URL + "/assets/burger-logger.png"} alt="burger-logger app"/>
@@ -125,25 +142,6 @@ function Portfolio() {
                     </div>
                 </div>
 
-
-                <div className="col-lg-4">
-                    <div className="card mx-auto mb-3" style={styles.card}>
-                        <img className="card-img-top"
-                            src="https://raw.githubusercontent.com/joeybrown-ctrl/joeybrown-ctrl.github.io/master/images/employee-card-pic.png" alt="Team profile generator"/>
-                        <hr/>
-                        <h5 className="card-title text-center">Team Profile Generator</h5>
-                        <div className="card-body text-center">
-                            <p className="card-text">A Node CLI that generates an HTML page with employee profiles. Utilizes
-                                NPM's Inquirer package to ask the user whether the employee they are inputting is a
-                                manager,
-                                engineer or intern -- and what the employee's name, ID, and email are -- with additional
-                                role specific questions as well.</p>
-                            <a href="https://github.com/joeybrown-ctrl/team-profile-generator" className="btn btn-success"
-                                target="_blank" rel="noreferrer">View Project</a>
-                        </div>
-
-                    </div>
-                </div>
 
                 <div className="col-lg-4">
 
